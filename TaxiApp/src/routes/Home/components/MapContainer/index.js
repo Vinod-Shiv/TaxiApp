@@ -15,6 +15,10 @@ export const MapContainer = ({
                 region={region}
                 >
 
+                <MapView.Marker
+                    coordinate = {region}
+                    pinColor="green"
+                />
             </MapView>
         </View>
     )
